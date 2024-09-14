@@ -5,16 +5,16 @@ export default function Navigation() {
     return (
         <Navbar
             links={[
-                <Link key={1} to={"/"}>
+                <Link key={1} className='nav-link' to={"/"}> 
                     About Me
                 </Link>,
-                <Link key={2} to={"/Portfolio"}>
+                <Link key={2} className='nav-link' to={"/Portfolio"}>
                     Portfolio
                 </Link>,
-                <Link key={3} to={"/Contact"}>
+                <Link key={3} className='nav-link' to={"/Contact"}>
                     Contact
                 </Link>,
-                <Link key={4} to={"/Resume"}>
+                <Link key={4} className='nav-link' to={"/Resume"}>
                     Resume
                 </Link>,
             ]}

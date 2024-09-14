@@ -1,5 +1,5 @@
 
-export default function Project() {
+export default function Portfolio() {
     return (
         <div></div>
     );

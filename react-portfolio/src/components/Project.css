@@ -1,0 +1,39 @@
+.image-container {
+    max-width: 100%;
+    position: relative;
+}
+
+.image-container:hover {
+    opacity: .5;
+}
+
+.image-container:hover .url-div a {
+    opacity: 1;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.url-div {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
+
+.url-div a {
+    color: black;
+    text-decoration: none;
+    display: inline;
+    /* opacity: 0; add back in at the end*/
+    /* transform */
+
+}
+
+.url-div a:hover {
+    opacity: 1;
+}

@@ -1,5 +1,6 @@
 import { validateEmail } from "../utils/helpers";
 import { useState } from "react";
+import './Contact.css'
 
 export default function Contact() {
 
@@ -17,7 +18,7 @@ export default function Contact() {
         } else if (inputType === 'email') {
             setEmail(inputValue);
         } else {
-            setMessage(inputType);
+            setMessage(inputValue);
         }
     };
 
@@ -30,7 +31,7 @@ export default function Contact() {
         };
 
         if (!name || !message) {
-            setErrorMessage('Name or message field is blank');
+            setErrorMessage('Name or message can not be left blank');
             return
         };
 
@@ -41,12 +42,13 @@ export default function Contact() {
     };
 
     return (
-        <div>
+        <div className="container-fluid">
             <h2>Contact Me</h2>
-            <form onSubmit={handleFormSubmit}>
-                <label>
+            <form className="column" onSubmit={handleFormSubmit}>
+                <label className="form-label d-block col-sm-6">
                     Name:
                     <input
+                        className="form-control"
                         value={name}
                         name="name"
                         type="text"
@@ -54,28 +56,32 @@ export default function Contact() {
                         // required
                     />
                 </label>
-                <label>
+                <label className="form-label d-block col-sm-6">
                     Email:
                     <input
+                        className="form-control"
                         value={email}
                         name="email"
                         type="text"
                         onChange={handleInputChange}
                     />
                 </label>
-                <label>
+                <label className="form-label d-block col-sm-6">
                     Message:
                     <textarea
+                        className="form-control"
                         value={message}
                         name="message"
                         onChange={handleInputChange}
                     />
                 </label>
-                <button type="submit">Submit</button>
+                <div>
+                    <button type="submit" className="btn btn-primary my-3">Submit</button>
+                </div>
             </form>
             {errorMessage && (
                 <div>
-                    <p>{errorMessage}</p>
+                    <p className="error-text">{errorMessage}</p>
                 </div>
             )}
         </div>

@@ -1,10 +1,7 @@
 import './Project.css'
-// import myImage from '../assets/images/github-mark.svg'
 
 export default function Project({project}) {
 
-    // use .map to display all of the project info
-    // will need an image from the project, url for deployed applicationa and github repository
     return (
         <div className='col-md-6 my-2 py-2'>
             <div className="image-container">

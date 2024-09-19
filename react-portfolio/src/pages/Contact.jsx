@@ -53,7 +53,6 @@ export default function Contact() {
                         name="name"
                         type="text"
                         onChange={handleInputChange}
-                        // required
                     />
                 </label>
                 <label className="form-label d-block col-sm-6">

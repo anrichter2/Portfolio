@@ -1,10 +1,11 @@
+import pdf from '../assets/Aaron-Richter-Resume-2024.pdf'
 
 export default function Resume() {
     return (
         <div>
             <h2>Resume</h2>
             <p>
-                Download my resume <a href="/Resume">Here</a>
+                Download my resume <a href={pdf} download={'Aaron Richter Resume'}>Here</a>
             </p>
             <h3>Front-end Proficiencies</h3>
             <ul>
@@ -24,7 +25,7 @@ export default function Resume() {
                 <li>Express</li>
                 <li>API's</li>
                 <li>SQL</li>
-                <li>PostGres, Sequelize</li>
+                <li>PostgreSQL, Sequelize</li>
                 <li>MongoDB, Mongoose</li>
             </ul>
         </div>

@@ -1,3 +1,7 @@
 header div {
     min-height: 150px;
 }
+
+header h1 {
+    font-size: 50px;
+}

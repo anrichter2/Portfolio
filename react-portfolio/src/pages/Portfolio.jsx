@@ -2,43 +2,47 @@ import Project from "../components/Project";
 
 export default function Portfolio() {
 
-    // Add data of projects for the project page tehn pass to project component
-    // array of objects with title:, Github URL:, deployed URL:
     const projects = [{
         id: 1,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Cheap Skate Gamer',
+        gitHubURL: 'https://github.com/WillZovo94/CheapSkate-Gamer',
+        deployedURL: 'https://cheapskate-gamer.onrender.com/',
+        imageURL: 'src/assets/images/cheap-skate-gamer-image.png'
     },
     {
         id: 2,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Pop Culture Flex',
+        gitHubURL: 'https://github.com/Cadcar01/Pop-Culture-Trivia-App',
+        deployedURL: 'https://cadcar01.github.io/Pop-Culture-Trivia-App/',
+        imageURL: 'src/assets/images/pop-culture-flex-image.png'
     },
     {
         id: 3,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Tech Blog',
+        gitHubURL: 'https://github.com/anrichter2/tech-blog',
+        deployedURL: 'https://tech-blog-b20z.onrender.com/',
+        imageURL: 'src/assets/images/tech-blog-image.png'
     },
     {
         id: 4,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Weather App',
+        gitHubURL: 'https://github.com/anrichter2/Weather-Dashboard',
+        deployedURL: 'https://anrichter2.github.io/Weather-Dashboard/',
+        imageURL: 'src/assets/images/weather-app-image.png'
     },
     {
         id: 5,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Task Board',
+        gitHubURL: 'https://github.com/anrichter2/Task-Board',
+        deployedURL: 'https://anrichter2.github.io/Task-Board/',
+        imageURL: 'src/assets/images/task-board-image.png'
     },
     {
         id: 6,
-        projectTitle: 'Example',
-        gitHubURL: 'https://github.com/anrichter2',
-        deployedURL: 'https://www.google.com'
+        projectTitle: 'Personal Blog',
+        gitHubURL: 'https://github.com/anrichter2/my-personal-blog',
+        deployedURL: 'https://anrichter2.github.io/my-personal-blog/',
+        imageURL: 'src/assets/images/personal-blog-image.png'
     }];
 
     return (

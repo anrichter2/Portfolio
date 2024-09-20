@@ -9,10 +9,10 @@ export default function Project({project}) {
                 <img className='project-image' src={project.imageURL} alt="exampleImage" />
                 <div className='url-div container'>
                     <div className='row align-items-center'>
-                        <a className='url-links col-6 my-2' href={project.gitHubURL}>
+                        <a className='url-links col-6 my-2' href={project.deployedURL}>
                             <p className="image-text my-2">{project.projectTitle}</p>
                         </a>
-                        <a className='url-links col-6 my-2' href={project.deployedURL}>
+                        <a className='url-links col-6 my-2' href={project.gitHubURL}>
                             <img className="url-link" src={gitHubIcon} alt='github image'/>
                         </a>
 

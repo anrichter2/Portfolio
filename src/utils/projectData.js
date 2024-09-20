@@ -1,10 +1,10 @@
-
+import cheapeskatimage from '../assets/images/cheap-skate-gamer-image.png'
 const projects = [{
     id: 1,
     projectTitle: 'Cheap Skate Gamer',
     gitHubURL: 'https://github.com/WillZovo94/CheapSkate-Gamer',
     deployedURL: 'https://cheapskate-gamer.onrender.com/',
-    imageURL: 'src/assets/images/cheap-skate-gamer-image.png'
+    imageURL: cheapeskatimage
 },
 {
     id: 2,

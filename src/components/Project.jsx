@@ -1,4 +1,5 @@
 import './Project.css'
+import gitHubIcon from '../assets/images/github-mark.svg'
 
 export default function Project({project}) {
 
@@ -12,7 +13,7 @@ export default function Project({project}) {
                             <p className="image-text my-2">{project.projectTitle}</p>
                         </a>
                         <a className='url-links col-6 my-2' href={project.deployedURL}>
-                            <img className="url-link" src={'src/assets/images/github-mark.svg'} alt='github image'/>
+                            <img className="url-link" src={gitHubIcon} alt='github image'/>
                         </a>
 
                     </div>

@@ -1,4 +1,5 @@
 import './About.css'
+import meImage from '../assets/images/my-photo-image.jpg'
 
 export default function About() {
     return (
@@ -6,7 +7,7 @@ export default function About() {
             <h2>
                 About Me
             </h2>
-            <img className="about-photo" src={"src/assets/images/my-photo-image.jpg"} alt="My Photo"/>
+            <img className="about-photo" src={meImage} alt="My Photo"/>
             <p>
                 Hello and welcome to my virtual portfolio. My name is Aaron Richter and I am an aspiring software developer. Over the last
                 few months I have been taking part in a part-time software developer bootcamp put on by the University of Minnesota. I have

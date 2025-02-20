@@ -11,9 +11,9 @@ export default function Navigation() {
                 <Link key={2} className='nav-link' to={"/Portfolio"}>
                     Portfolio
                 </Link>,
-                <Link key={3} className='nav-link' to={"/Contact"}>
-                    Contact
-                </Link>,
+                // <Link key={3} className='nav-link' to={"/Contact"}>
+                //     Contact
+                // </Link>,
                 <Link key={4} className='nav-link' to={"/Resume"}>
                     Resume
                 </Link>,

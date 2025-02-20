@@ -1,4 +1,4 @@
-import pdf from '../assets/Aaron-Richter-Resume-2024.pdf'
+import pdf from '../assets/Aaron-Richter-Resume-2025-V2.pdf'
 
 export default function Resume() {
     return (
